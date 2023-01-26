@@ -63,6 +63,9 @@
         }
     }
 
+    .historico_tarjeta_container::-webkit-scrollbar {
+        display: none;
+    }
     .historicos_imagen_principal {
         width: 50%;
         margin: 1% 0% 1% 1%;

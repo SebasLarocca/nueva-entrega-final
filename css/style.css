@@ -259,6 +259,8 @@ nav {
           font-family: Montserrat_bold;
           font-size: 1rem;
           margin: 0% 4% 4% 0%; }
+  .contenedor_principal_historicos .historico_tarjeta_container::-webkit-scrollbar {
+    display: none; }
   .contenedor_principal_historicos .historicos_imagen_principal {
     width: 50%;
     margin: 1% 0% 1% 1%; }
@@ -474,7 +476,7 @@ nav {
 @media screen and (max-width: 480px) {
   /* Shop */
   .shop_card_container {
-    width: 40%; }
+    width: 60%; }
   .oferta_del_dia .shop_ofertas_primero {
     font-size: 1.5rem; }
   .oferta_del_dia .shop_ofertas_segundo {
